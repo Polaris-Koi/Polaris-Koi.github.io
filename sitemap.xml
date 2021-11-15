@@ -4,14 +4,14 @@
   <url>
     <loc>https://blog.kcbpmbf.cn/2021/10/17/</loc>
     
-    <lastmod>2021-11-14</lastmod>
+    <lastmod>2021-11-15</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.cn/2021/10/16/</loc>
     
-    <lastmod>2021-11-14</lastmod>
+    <lastmod>2021-11-15</lastmod>
     
   </url>
   
@@ -39,7 +39,7 @@
 
   <url>
     <loc>https://blog.kcbpmbf.cn/</loc>
-    <lastmod>2021-11-14</lastmod>
+    <lastmod>2021-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,21 +47,14 @@
   
   <url>
     <loc>https://blog.kcbpmbf.cn/tags/Termux/</loc>
-    <lastmod>2021-11-14</lastmod>
+    <lastmod>2021-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.cn/tags/Hexo/</loc>
-    <lastmod>2021-11-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.cn/tags/pulseaudio/</loc>
-    <lastmod>2021-11-14</lastmod>
+    <lastmod>2021-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -69,22 +62,22 @@
 
   
   <url>
-    <loc>https://blog.kcbpmbf.cn/categories/Termux/</loc>
-    <lastmod>2021-11-14</lastmod>
+    <loc>https://blog.kcbpmbf.cn/categories/Linux-Termux/</loc>
+    <lastmod>2021-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.kcbpmbf.cn/categories/Termux/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-11-14</lastmod>
+    <loc>https://blog.kcbpmbf.cn/categories/Linux-Termux/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.kcbpmbf.cn/categories/Termux/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2021-11-14</lastmod>
+    <loc>https://blog.kcbpmbf.cn/categories/Linux-Termux/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2021-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

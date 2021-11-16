@@ -60,13 +60,6 @@
   </url>
   
   <url>
-    <loc>https://blog.kcbpmbf.cn/tags/Hexo/</loc>
-    <lastmod>2021-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.kcbpmbf.cn/tags/Linux/</loc>
     <lastmod>2021-11-16</lastmod>
     <changefreq>daily</changefreq>
@@ -75,6 +68,13 @@
   
   <url>
     <loc>https://blog.kcbpmbf.cn/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2021-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.cn/tags/Hexo/</loc>
     <lastmod>2021-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -90,6 +90,13 @@
   </url>
   
   <url>
+    <loc>https://blog.kcbpmbf.cn/categories/Linux-Termux/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2021-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.kcbpmbf.cn/categories/Linux-Termux/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-11-16</lastmod>
     <changefreq>daily</changefreq>
@@ -98,13 +105,6 @@
   
   <url>
     <loc>https://blog.kcbpmbf.cn/categories/Linux-Termux/%E6%95%99%E7%A8%8B/Hexo/</loc>
-    <lastmod>2021-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.cn/categories/Linux-Termux/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2021-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

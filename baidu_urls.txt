@@ -2,5 +2,5 @@ https://blog.kcbpmbf.com/2022/08/HexoToc/
 https://blog.kcbpmbf.com/2022/08/Termuxlibssl/
 https://blog.kcbpmbf.com/2022/03/xfce4%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/
 https://blog.kcbpmbf.com/2021/11/%E5%A4%84%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%87%BA%E9%94%99/
-https://blog.kcbpmbf.com/2021/10/pulseaudio%E6%8A%A5%E9%94%99/
+https://blog.kcbpmbf.com/2021/10/pulseaudio/
 https://blog.kcbpmbf.com/2021/10/Termuxhexo/

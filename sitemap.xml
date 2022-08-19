@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.kcbpmbf.com/2021/11/%E5%A4%84%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%87%BA%E9%94%99/</loc>
+    <loc>https://blog.kcbpmbf.com/2022/03/xfce4%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/</loc>
     
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,43 +13,16 @@
   <url>
     <loc>https://blog.kcbpmbf.com/2022/08/web123/</loc>
     
-    <lastmod>2022-08-15</lastmod>
+    <lastmod>2022-08-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.kcbpmbf.com/2021/10/Termuxhexo/</loc>
+    <loc>https://blog.kcbpmbf.com/2022/08/Termuxlnmp/</loc>
     
-    <lastmod>2022-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.com/about/</loc>
-    
-    <lastmod>2022-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.com/2022/08/HexoToc/</loc>
-    
-    <lastmod>2022-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.com/2021/10/pulseaudio/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
+    <lastmod>2022-08-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,16 +31,79 @@
   <url>
     <loc>https://blog.kcbpmbf.com/2022/08/Termuxlibssl/</loc>
     
-    <lastmod>2022-08-13</lastmod>
+    <lastmod>2022-08-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.kcbpmbf.com/2022/03/xfce4%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/</loc>
+    <loc>https://blog.kcbpmbf.com/2021/10/pulseaudio/</loc>
     
-    <lastmod>2022-03-14</lastmod>
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/2022/08/linux-cp-mv/</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/2022/08/HexoToc/</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/2022/08/Hexo/</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/2022/08/HexoOther/</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/about/</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/2021/11/%E5%A4%84%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%87%BA%E9%94%99/</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/2021/10/Termuxhexo/</loc>
+    
+    <lastmod>2022-08-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +130,7 @@
 
   <url>
     <loc>https://blog.kcbpmbf.com/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,42 +138,49 @@
   
   <url>
     <loc>https://blog.kcbpmbf.com/tags/Hexo/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.com/tags/Termux/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.com/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2022-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.com/tags/web/</loc>
-    <lastmod>2022-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.com/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.com/tags/Linux/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/tags/lnmp/</loc>
+    <lastmod>2022-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/tags/web/</loc>
+    <lastmod>2022-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -146,35 +189,35 @@
   
   <url>
     <loc>https://blog.kcbpmbf.com/categories/Hexo/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.com/categories/Linux-Termux/</loc>
-    <lastmod>2022-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.kcbpmbf.com/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.com/categories/Linux-Termux/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.kcbpmbf.com/categories/Linux-Termux/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-08-17</lastmod>
+    <lastmod>2022-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kcbpmbf.com/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2022-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

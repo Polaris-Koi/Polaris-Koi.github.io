@@ -1,10 +1,10 @@
 https://blog.kcbpmbf.com/2022/08/linux-cp-mv/
-https://blog.kcbpmbf.com/2022/08/termuxlnmp/
-https://blog.kcbpmbf.com/2021/10/termuxhexo/
-https://blog.kcbpmbf.com/2022/08/hexoother/
+https://blog.kcbpmbf.com/2022/08/Termuxlnmp/
+https://blog.kcbpmbf.com/2021/10/Termuxhexo/
+https://blog.kcbpmbf.com/2022/08/HexoOther/
 https://blog.kcbpmbf.com/2022/08/web123/
-https://blog.kcbpmbf.com/2022/03/xfce4-geng-huan-zhu-ti/
-https://blog.kcbpmbf.com/2022/08/termuxlibssl/
+https://blog.kcbpmbf.com/2022/03/xfce4%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/
+https://blog.kcbpmbf.com/2022/08/Termuxlibssl/
 https://blog.kcbpmbf.com/2021/10/pulseaudio/
-https://blog.kcbpmbf.com/2022/08/hexotoc/
-https://blog.kcbpmbf.com/2022/08/hexo/
+https://blog.kcbpmbf.com/2022/08/HexoToc/
+https://blog.kcbpmbf.com/2022/08/Hexo/

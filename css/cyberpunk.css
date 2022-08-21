@@ -10763,6 +10763,9 @@ body > .section {
   overflow: visible;
   border-radius: 0;
 }
+.card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.1);
+}
 .card + .card,
 .card + .column-right-shadow {
   margin-top: 1.5rem;
@@ -11353,6 +11356,9 @@ figure.highlight.foldable div.level-left {
 .widget .menu-list li ul {
   margin-right: 0;
 }
+.widget .menu-list a {
+  transition: background-color 0.3s ease-in-out;
+}
 .widget .menu-list .level {
   margin-bottom: 0;
 }
@@ -11412,6 +11418,10 @@ figure.highlight.foldable div.level-left {
   #toc-mask.is-active {
     display: block;
   }
+}
+#toc {
+  max-height: calc(100vh - 22px);
+  overflow-y: scroll;
 }
 .donate {
   position: relative;
@@ -11639,6 +11649,10 @@ figure.highlight.foldable div.level-left {
   background-color: #f5e703;
 }
 @media screen and (min-width: 1280px) {
+  .is-3-column .container {
+    max-width: 1216px;
+    width: 1216px;
+  }
   .is-1-column .container,
   .is-2-column .container {
     max-width: 960px;
@@ -11646,6 +11660,10 @@ figure.highlight.foldable div.level-left {
   }
 }
 @media screen and (min-width: 1472px) {
+  .is-3-column .container {
+    max-width: 1344px;
+    width: 1344px;
+  }
   .is-2-column .container {
     max-width: 1152px;
     width: 1152px;

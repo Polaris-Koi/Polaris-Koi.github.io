@@ -9,7 +9,7 @@
     <atom:link href="https://blog.kcbpmbf.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>KCBPMBF/Polaris-Koi的博客</description>
-    <pubDate>Sun, 21 Aug 2022 08:49:55 GMT</pubDate>
+    <pubDate>Mon, 22 Aug 2022 03:21:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -181,7 +181,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>注:有的主题自带目录插件（Toc）那么就不能使用此方法 只适用主题无自带的目录<br>此插件也不能和边栏Toc同时使用 如果你有边栏Toc 那么请从删除其中一个<br>此插件为文章插入的toc 效果如下</p><span id="more"></span><!-- toc --><h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>首先我们执行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-toc --save</span><br></pre></td></tr></table></figure><p>如果您使用的是默认源下载很慢，那么请更换为国内源</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com </span><br></pre></td></tr></table></figure><h2 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h2><p>安装完成后<br>在博客根目录下的 _config.yml添加如下配置</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">toc:</span><br><span class="line">  maxDepth: 3</span><br></pre></td></tr></table></figure><p>即可<br>这里maxdepth的意思为<br>maxdepth：使用深度最大为 maxdepth 的标题<br>原文<code>maxdepth: Use headings whose depth is at most maxdepth.</code><br>注：此结果是谷歌翻译<br>如果您有更多需要<br>添加其他的参数的话<br>请看<a href="https://github.com/bubkoo/hexo-toc">GitHub</a><br>这里是谷歌翻译各项参数结果<br>maxdepth：使用深度最大为 maxdepth 的标题。<br>class：目录的 CSS 类。 （默认为关）<br>slugify：选择您要使用的 slugify 功能。 目前支持uslug（默认）和音译。<br>decodeEntities：选择是否启用解码实体。 （默认为关，请参阅#15）。<br>锚点：每个标题是否应该有一个锚点。 （默认为关）<br>位置：锚应该在哪里，标题，或者标题。 （默认为afterbeforeafter）；<br>符号：您希望锚点是哪个符号。 （默认为#）；<br>style：锚的 CSS 类，（默认为 header-anchor）；</p><h2 id="3-使用"><a href="#3-使用" class="headerlink" title="3.使用"></a>3.使用</h2><p>在文章您想添加目录的位置输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- toc --&gt;</span><br></pre></td></tr></table></figure><h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4.其他"></a>4.其他</h2><p><a href="https://zhuanlan.zhihu.com/p/474967971">解决Hexo建站使用toc目录跳转undefined的问题</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>注:有的主题自带目录插件（Toc）那么就不能使用此方法 只适用主题无自带的目录<br>此插件也不能和边栏Toc同时使用 如果你有边栏Toc 那么请从删除其中一个<br>此插件为文章插入的toc 效果如下</p><span id="more"></span><p>@[TOC]</p><h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>首先我们执行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-toc --save</span><br></pre></td></tr></table></figure><p>如果您使用的是默认源下载很慢，那么请更换为国内源</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com </span><br></pre></td></tr></table></figure><h2 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h2><p>安装完成后<br>在博客根目录下的 _config.yml添加如下配置</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">toc:</span><br><span class="line">  maxDepth: 3</span><br></pre></td></tr></table></figure><p>即可<br>这里maxdepth的意思为<br>maxdepth：使用深度最大为 maxdepth 的标题<br>原文<code>maxdepth: Use headings whose depth is at most maxdepth.</code><br>注：此结果是谷歌翻译<br>如果您有更多需要<br>添加其他的参数的话<br>请看<a href="https://github.com/bubkoo/hexo-toc">GitHub</a><br>这里是谷歌翻译各项参数结果<br>maxdepth：使用深度最大为 maxdepth 的标题。<br>class：目录的 CSS 类。 （默认为关）<br>slugify：选择您要使用的 slugify 功能。 目前支持uslug（默认）和音译。<br>decodeEntities：选择是否启用解码实体。 （默认为关，请参阅#15）。<br>锚点：每个标题是否应该有一个锚点。 （默认为关）<br>位置：锚应该在哪里，标题，或者标题。 （默认为afterbeforeafter）；<br>符号：您希望锚点是哪个符号。 （默认为#）；<br>style：锚的 CSS 类，（默认为 header-anchor）；</p><h2 id="3-使用"><a href="#3-使用" class="headerlink" title="3.使用"></a>3.使用</h2><p>在文章您想添加目录的位置输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- toc --&gt;</span><br></pre></td></tr></table></figure><h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4.其他"></a>4.其他</h2><p><a href="https://zhuanlan.zhihu.com/p/474967971">解决Hexo建站使用toc目录跳转undefined的问题</a></p>]]></content:encoded>
       
       
       <category domain="https://blog.kcbpmbf.com/categories/Hexo/">Hexo</category>
@@ -240,9 +240,9 @@
       <category domain="https://blog.kcbpmbf.com/categories/Linux-Termux/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://blog.kcbpmbf.com/tags/Linux/">Linux</category>
-      
       <category domain="https://blog.kcbpmbf.com/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/">常见问题</category>
+      
+      <category domain="https://blog.kcbpmbf.com/tags/Linux/">Linux</category>
       
       
       <comments>https://blog.kcbpmbf.com/2022/03/xfce4%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/#disqus_thread</comments>
@@ -269,9 +269,9 @@
       
       <category domain="https://blog.kcbpmbf.com/tags/Termux/">Termux</category>
       
-      <category domain="https://blog.kcbpmbf.com/tags/Linux/">Linux</category>
-      
       <category domain="https://blog.kcbpmbf.com/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/">常见问题</category>
+      
+      <category domain="https://blog.kcbpmbf.com/tags/Linux/">Linux</category>
       
       
       <comments>https://blog.kcbpmbf.com/2021/11/%E5%A4%84%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%87%BA%E9%94%99/#disqus_thread</comments>

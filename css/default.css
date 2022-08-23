@@ -10999,7 +10999,7 @@ a.article-nav-next span {
   .column-left.is-sticky,
   .column-right.is-sticky,
   .column-right-shadow.is-sticky {
-    top: 70px;
+    top: 87px !important;
   }
   .navbar {
     z-index: 100;

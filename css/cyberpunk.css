@@ -10995,7 +10995,7 @@ a.article-nav-next span {
     margin-right: 0rem;
   }
 }
-@media screen and (min-width: screen-tablet) {
+@media screen and (min-width: 769px) {
   .column-main.is-sticky,
   .column-left.is-sticky,
   .column-right.is-sticky,

@@ -9,8 +9,31 @@
     <atom:link href="https://blog.kcbpmbf.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>KCBPMBF/Polaris-Koi的博客</description>
-    <pubDate>Mon, 22 Aug 2022 03:21:42 GMT</pubDate>
+    <pubDate>Wed, 30 Nov 2022 16:30:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>UNREAL ENGINE 5.0</title>
+      <link>https://blog.kcbpmbf.com/2022/11/UNREALENGINE/</link>
+      <guid>https://blog.kcbpmbf.com/2022/11/UNREALENGINE/</guid>
+      <pubDate>Wed, 30 Nov 2022 15:40:59 GMT</pubDate>
+      
+      <description>&lt;p&gt;Polaris 2022&amp;#x2F;11&amp;#x2F;30&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>Polaris 2022&#x2F;11&#x2F;30</p><span id="more"></span><h1 id="1-快捷键"><a href="#1-快捷键" class="headerlink" title="1.快捷键"></a>1.快捷键</h1><ul><li>E 向上 Q 向下 +鼠标右键</li><li>平移 W</li><li>旋转 E</li><li>缩放 R</li><li>聚焦物体 选择某个物体 按F或在右边双击</li><li>定位物体文件 选中后 Ctrl+B</li><li>编辑物品 Ctrl+E</li><li>撤回操作 Ctrl+Z</li><li>恢复操作 Ctrl+Y</li><li>打开日志 alt+&#96;</li><li>内容侧滑菜单 Ctrl+空格</li><li>保存 Ctrl+S</li></ul><h1 id="2-常见问题"><a href="#2-常见问题" class="headerlink" title="2.常见问题"></a>2.常见问题</h1><h2 id="2-1-Video-Memory-Has-Been-exhausted"><a href="#2-1-Video-Memory-Has-Been-exhausted" class="headerlink" title="2.1 Video Memory Has Been exhausted"></a>2.1 Video Memory Has Been exhausted</h2><p>项目设置搜索Default RHI 改成dx11即可解决</p><h2 id="2-2-UE改着色器缓存路径"><a href="#2-2-UE改着色器缓存路径" class="headerlink" title="2.2 UE改着色器缓存路径"></a>2.2 UE改着色器缓存路径</h2><p><strong>1. 编辑器的偏好设置中搜ddc改路径（推荐）</strong><br>2. 引擎版本\Engine\Config\BaseEngine.ini<br>搜索[InstalledDerivedDataBackendGraph]<br>改成Path&#x3D;”%GAMEDIR%DerivedDataCache”将会在项目文件夹中保存编译的着色器<br><em>不推荐，因为同一个地图创建2个或拷贝到不同项目中去光影天空什么的就是着色器将会重新编译 浪费空间和资源</em><br>3. 改成<strong>Path&#x3D;”D:\Epic\DerivedDataCache”</strong><br>然后把<strong>C:\Users\你的用户名\AppData\Local\UnrealEngine\Common\DerivedDataCache</strong>拷贝到D盘的路径<br><em>即不占用C盘空间 也不会引用重新编译</em><br>4. 也可以设置环境变量 详见<br><a href="https://docs.unrealengine.com/5.0/zh-CN/derived-data-cache/">ue官方文档</a><br>注：以上路径请自行替换为你本地的路径&#x2F;文件夹名称</p><h1 id="3-基础"><a href="#3-基础" class="headerlink" title="3.基础"></a>3.基础</h1><h2 id="3-1-角色类"><a href="#3-1-角色类" class="headerlink" title="3.1 角色类"></a>3.1 角色类</h2><h3 id="3-1-1-改游戏模式-控制角色"><a href="#3-1-1-改游戏模式-控制角色" class="headerlink" title="3.1.1 改游戏模式 控制角色"></a>3.1.1 改游戏模式 控制角色</h3><p>世界场景设置—游戏模式重载<br>            —默认pawn类</p><h3 id="3-1-2-改人物摄像机"><a href="#3-1-2-改人物摄像机" class="headerlink" title="3.1.2 改人物摄像机"></a>3.1.2 改人物摄像机</h3><p>选择人物 使用ctrl+b或ctrl+e找到人物蓝图文件<br>改弹簧臂</p><h3 id="3-1-3-改默认人物移动参数"><a href="#3-1-3-改默认人物移动参数" class="headerlink" title="3.1.3 改默认人物移动参数"></a>3.1.3 改默认人物移动参数</h3><ol><li>行走：找到人物蓝图—组件—角色移动—最大行走速度</li><li>可行走地面角度：设置最大让他走的地面角度 列如你设置成60 那么你就可以走上去50度的台阶</li><li>跳跃高度：改跳跃z速度</li><li>空气控制：你跳起来在空中还能不能往 前&#x2F;后&#x2F;左&#x2F;右 移动 0为不能移动 1为行走下的最大速度移动</li><li>重力：设置重力标度大小 1就是正常地球重力 可调负数 改小就是太空那样的 如果改成0 就会直接起飞 根据牛一定律 任何物体都要保持匀速直线运动或静止状态，直到外力迫使它改变运动状态为止 如果你改成0了 那么就没有重力了 你跳跃将会一直飞 保持匀速直线运动状态<strong>是的 非常真实 牛顿表示很满意 牛顿的棺材板终于不动了</strong></li></ol><h2 id="3-2-物理系统"><a href="#3-2-物理系统" class="headerlink" title="3.2 物理系统"></a>3.2 物理系统</h2><p>选择一个物体 细节 物理 模拟物理<br>参数按需设置即可</p>]]></content:encoded>
+      
+      
+      <category domain="https://blog.kcbpmbf.com/categories/UNREAL-ENGINE/">UNREAL ENGINE</category>
+      
+      
+      <category domain="https://blog.kcbpmbf.com/tags/UNREAL-ENGINE-5-0/">UNREAL ENGINE 5.0</category>
+      
+      
+      <comments>https://blog.kcbpmbf.com/2022/11/UNREALENGINE/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hexo一些常见的问题</title>
